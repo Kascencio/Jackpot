@@ -1,9 +1,9 @@
 const Images = [
-  { image: "/images/SevenCard.jpg", point: 100 },
-  { image: "/images/Diamond.jpg",   point: 90 },
-  { image: "/images/Cherries.png",  point: 40 },
-  { image: "/images/Apple.jpg",     point: 30 },
-  { image: "/images/Fresa.png",     point: 20 },
+  { image: "images/SevenCard.jpg", point: 100 },
+  { image: "images/Diamond.jpg",   point: 90 },
+  { image: "images/Cherries.png",  point: 40 },
+  { image: "images/Apple.jpg",     point: 30 },
+  { image: "images/Fresa.png",     point: 20 },
 ];
 const imgLayer = ["/images/layer.jpg"];
 const imgReplaceOne = document.getElementById("cardOne");
