@@ -1,11 +1,12 @@
+import ImageKit from "imagekit-javascript"
 const Images = [
-  { image: "images/SevenCard.jpg", point: 100 },
-  { image: "images/Diamond.jpg",   point: 90 },
-  { image: "images/Cherries.png",  point: 40 },
-  { image: "images/Apple.jpg",     point: 30 },
-  { image: "images/Fresa.png",     point: 20 },
+  { image: "https://ik.imagekit.io/keaf/Jackpot/SevenCard.jpg?updatedAt=1708755888342", point: 100 },
+  { image: "https://ik.imagekit.io/keaf/Jackpot/Diamond.jpg?updatedAt=1708755887856",   point: 90 },
+  { image: "https://ik.imagekit.io/keaf/Jackpot/Cherries.png?updatedAt=1708755888345",  point: 40 },
+  { image: "https://ik.imagekit.io/keaf/Jackpot/Apple.jpg?updatedAt=1708755887556",     point: 30 },
+  { image: "https://ik.imagekit.io/keaf/Jackpot/Fresa.png?updatedAt=1708755888083",     point: 20 },
 ];
-const imgLayer = ["/images/layer.jpg"];
+const imgLayer = ["https://ik.imagekit.io/keaf/Jackpot/layer.jpg?updatedAt=1708755888116"];
 const imgReplaceOne = document.getElementById("cardOne");
 const imgReplaceTwo = document.getElementById("cardTwo");
 const imgReplaceThree = document.getElementById("cardThree");
