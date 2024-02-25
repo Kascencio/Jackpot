@@ -1,4 +1,3 @@
-import ImageKit from "imagekit-javascript"
 const Images = [
   { image: "https://ik.imagekit.io/keaf/Jackpot/SevenCard.jpg?updatedAt=1708755888342", point: 100 },
   { image: "https://ik.imagekit.io/keaf/Jackpot/Diamond.jpg?updatedAt=1708755887856",   point: 90 },
